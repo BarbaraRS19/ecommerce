@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+
+
+header h1{
+    color: red;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+header img{
+    width: 30px;
+    display: flex;
+}
+
+.container h2{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.section1{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section2{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 150px;
+    display: flex;  
+}
+
+footer{
+    background-color: rgb(243, 71, 71);
+}
+
+footer h1{
+color: white;
+font-size: 40px;
+display: flex;
+justify-content: center;
+}
+
+footer h2{
+    color: white;
+    font-size: 20px;
+    display: flex;
+justify-content: center;
+}
+
+footer h3{
+    color: white;
+    font-size: 13px;
+    display: flex;
+justify-content: center;
+}
+
+footer h4{
+    color: white;
+    font-size: 13px;
+ margin-left: 15px;
+display: flex;
+justify-content: left;
+}
+
+footer h5{
+    color: white;
+    font-size: 13px;
+ margin-left: 10px;
+ display: flex;
+justify-content: right;
+margin-right: 15px;
+}
